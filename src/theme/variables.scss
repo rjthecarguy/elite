@@ -76,3 +76,12 @@ $colors: (
 
 @import "roboto";
 @import "noto-sans";
+
+.menuIndent {
+	margin-left: 25px!important;
+}
+
+.menuHeader {
+	font-size: 18px!important;
+	font-weight: bold!important;
+}
