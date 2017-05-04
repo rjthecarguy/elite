@@ -3819,6 +3819,10 @@ ion-icon {
   color: #e63604;
 }
 
+.eliteOrange {
+  background-color: #e63604 !important;
+}
+
 .menuTitle {
   color: #555555;
 }
@@ -3853,7 +3857,7 @@ ion-icon {
   color: white;
   text-decoration: none;
   font-size: 38px;
-  padding-top: 12px;
+  padding-top: 2px;
   border-radius: 20px;
   font-weight: bold;
   margin: auto auto;
@@ -3861,6 +3865,14 @@ ion-icon {
 
 .buttonSpaceDiv {
   height: 20px;
+}
+
+#selectSpace {
+  height: 15px;
+}
+
+.paraCenter {
+  text-align: center;
 }
 
 ion-action-sheet {

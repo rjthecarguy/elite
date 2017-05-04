@@ -87,9 +87,16 @@ $colors: (
 	
 }
 
+.eliteOrange{
+	background-color: #e63604!important;
+	
+}
+
 .menuTitle {
 	color:#555555;
 }
+
+
 
 .menuHeader {
 	font-size: 18px!important;
@@ -123,7 +130,7 @@ $colors: (
 	color: white;
 	text-decoration: none;
 	font-size: 38px;
-	padding-top: 12px;
+	padding-top: 2px;
 	border-radius: 20px;
 	font-weight: bold;
 	margin:auto auto;
@@ -134,4 +141,14 @@ $colors: (
 .buttonSpaceDiv {
 	height: 20px;
 
+}
+
+
+
+#selectSpace {
+	height: 15px;
+}
+
+.paraCenter {
+	text-align: center;
 }
