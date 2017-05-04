@@ -85,3 +85,41 @@ $colors: (
 	font-size: 18px!important;
 	font-weight: bold!important;
 }
+
+.callButton{
+	display: block;
+	width:90%;
+	height: 70px;
+	background-color: #e63604;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	font-size: 38px;
+	padding-top: 12px;
+	border-radius: 20px;
+	font-weight: bold;
+	margin:auto auto;
+
+
+}
+
+.quoteButton{
+	display: block;
+	width:90%;
+	height: 70px;
+	background-color: #e63604;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	font-size: 38px;
+	padding-top: 12px;
+	border-radius: 20px;
+	font-weight: bold;
+	margin:auto auto;
+
+
+}
+
+.buttonSpaceDiv {
+	height: 20px;
+}
