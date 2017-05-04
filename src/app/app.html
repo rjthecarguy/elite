@@ -7,15 +7,15 @@
 
   <ion-content>
   <ion-list-header class="menuHeader">
-  Navigation
+  <span class="menuTitle">Navigation</span>
   </ion-list-header>
     <ion-list class="menuIndent">
-      <button menuClose ion-item *ngFor="let p of navPages" (click)="openPage(p)">
+      <button class="menuButton" menuClose ion-item *ngFor="let p of navPages" (click)="openPage(p)">
         {{p.title}}
       </button>
     </ion-list>
  <ion-list-header class="menuHeader">
-  Service
+  <span class="menuTitle">Service</span>
      </ion-list-header>
     <ion-list class="menuIndent">
       <button menuClose ion-item *ngFor="let p of servicePages" (click)="openPage(p)">

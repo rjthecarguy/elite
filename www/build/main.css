@@ -3815,9 +3815,18 @@ ion-icon {
   margin-left: 25px !important;
 }
 
+.label {
+  color: #e63604;
+}
+
+.menuTitle {
+  color: #555555;
+}
+
 .menuHeader {
   font-size: 18px !important;
   font-weight: bold !important;
+  color: navy !important;
 }
 
 .callButton {
