@@ -55,11 +55,14 @@ export class Quote {
   	var messageName = this.contact.controls.Name.value;
   	var messageEmail = this.contact.controls.Email.value;
   	var messageMessage = this.contact.controls.Message.value;
+    var messageRooms = this.contact.controls.Rooms.value;
+    var messagePhone = this.contact.controls.Phone.value;
+    var messageClean = this.contact.controls.cleanType.value;
 
 
 
 
-  	var message = this.buildMessage(messageName, messageEmail, messageMessage);
+  	var message = this.buildMessage(messageName, messageEmail, messageMessage, messagePhone, messageRooms, messageClean);
 
 
   	  	  	
@@ -105,13 +108,16 @@ export class Quote {
 
   }
 
-  buildMessage(name:string, email:string, messageString:string)  {
+  buildMessage(name:string, email:string, messageString:string, phone:string, rooms:string, clean:string)  {
 
 
 var message = "BioEdge Application Message\n\n";
 
 message += "Name:" + name + "\n";
-message += "Email:" + email + "\n\n";
+message += "Phone:" + phone + "\n";
+message += "Email:" + email + "\n";
+message += "Rooms:" + rooms + "\n";
+message += "Clean Type:" + clean + "\n";
 message += "Message:\n\n" + messageString + "\n";
 
 
