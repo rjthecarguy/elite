@@ -8,7 +8,7 @@ import { AboutUs } from '../pages/about-us/about-us';
 import { ContactUs } from '../pages/contact-us/contact-us';
 import { Quote } from '../pages/quote/quote';
 import { ListPage } from '../pages/list/list';
-
+import { Services } from '../pages/services/services';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { HttpModule } from '@angular/http';
@@ -21,7 +21,8 @@ import { HttpModule } from '@angular/http';
     ListPage,
     AboutUs,
     ContactUs,
-    Quote
+    Quote,
+    Services
   ],
   imports: [
     BrowserModule,HttpModule,
@@ -34,7 +35,8 @@ import { HttpModule } from '@angular/http';
     ListPage,
     AboutUs,
     ContactUs,
-    Quote
+    Quote,
+    Services
   ],
   providers: [
     StatusBar,
