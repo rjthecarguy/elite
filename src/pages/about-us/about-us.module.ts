@@ -1,6 +1,7 @@
+import { AboutUs } from './about-us';
 import { NgModule } from '@angular/core';
 import { IonicPageModule } from 'ionic-angular';
-import { AboutUs } from './about-us';
+
 
 @NgModule({
   declarations: [
