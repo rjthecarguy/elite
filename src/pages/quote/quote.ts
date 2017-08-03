@@ -68,7 +68,7 @@ export class Quote {
   	  	  	
   	if(this.contact.valid) {
 
-  			this.send("rj@rjrobinson.net", "App Inquiry", message);
+  			this.send("rmccoppin91@hotmail.com", "App Inquiry", message);
   			 
   			this.resetContactForm();
   			this.submitComplete = true;

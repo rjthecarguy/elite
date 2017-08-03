@@ -22,6 +22,16 @@
         {{p.title}}
       </button>
     </ion-list>
+
+<ion-list-header class="menuHeader">
+  <span class="menuTitle">Admin</span>
+     </ion-list-header>
+    <ion-list class="menuIndent">
+      <button menuClose ion-item *ngFor="let p of adminPages" (click)="openPage(p)">
+        {{p.title}}
+      </button>
+    </ion-list>
+
   </ion-content>
 
 </ion-menu>

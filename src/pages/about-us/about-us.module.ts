@@ -5,13 +5,13 @@ import { IonicPageModule } from 'ionic-angular';
 
 @NgModule({
   declarations: [
-    AboutUs,
+    
   ],
   imports: [
     IonicPageModule.forChild(AboutUs),
   ],
   exports: [
-    AboutUs
+    
   ]
 })
 export class AboutUsModule {}

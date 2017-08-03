@@ -12,12 +12,16 @@ import { Services } from '../pages/services/services';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { HttpModule } from '@angular/http';
+import { Notify } from '../pages/notify/notify';
+import { Loyalty } from '../pages/loyalty/loyalty';
 
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
+    Loyalty,
+    Notify,
     ListPage,
     AboutUs,
     ContactUs,
@@ -33,6 +37,8 @@ import { HttpModule } from '@angular/http';
     MyApp,
     HomePage,
     ListPage,
+    Notify,
+    Loyalty,
     AboutUs,
     ContactUs,
     Quote,

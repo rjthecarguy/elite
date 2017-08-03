@@ -9,6 +9,8 @@ import { AboutUs } from '../pages/about-us/about-us';
 import { ContactUs } from '../pages/contact-us/contact-us';
 import { Quote } from '../pages/quote/quote';
 import { Services } from '../pages/services/services';
+import { Notify } from '../pages/notify/notify';
+import { Loyalty } from '../pages/loyalty/loyalty';
 
 @Component({
   templateUrl: 'app.html'
@@ -20,6 +22,7 @@ export class MyApp {
 
   navPages: Array<{title: string, component: any}>;
   servicePages: Array<{title: string, component: any}>;
+  adminPages: Array<{title: string, component: any}>;
 
 
   constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen) {
@@ -30,8 +33,13 @@ export class MyApp {
       { title: 'Home', component: HomePage },
       { title: 'Services', component: Services },
       { title: 'About Us', component: AboutUs },
+      { title: 'Loyalty Program', component: Loyalty },
       { title: 'Contact Us', component: ContactUs }
     ];
+this.adminPages = [
+      { title: 'Send Notification', component: Notify }
+    ]
+
 
 this.servicePages = [
       { title: 'Request Cleaning Quote', component: Quote }

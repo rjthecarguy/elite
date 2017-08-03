@@ -4,13 +4,13 @@ import { ContactUs } from './contact-us';
 
 @NgModule({
   declarations: [
-    ContactUs,
+   
   ],
   imports: [
     IonicPageModule.forChild(ContactUs),
   ],
   exports: [
-    ContactUs
+    
   ]
 })
 export class ContactUsModule {}

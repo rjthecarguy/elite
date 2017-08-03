@@ -4,13 +4,12 @@ import { Quote } from './quote';
 
 @NgModule({
   declarations: [
-    Quote,
-  ],
+      ],
   imports: [
     IonicPageModule.forChild(Quote),
   ],
   exports: [
-    Quote
+    
   ]
 })
 export class QuoteModule {}

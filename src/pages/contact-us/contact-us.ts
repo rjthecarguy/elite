@@ -62,7 +62,7 @@ export class ContactUs {
   	  	  	
   	if(this.contact.valid) {
 
-  			this.send("rj@rjrobinson.net", "App Inquiry", message);
+  			this.send("rmccoppin91@hotmail.com", "App Inquiry", message);
   			 
   			this.resetContactForm();
   			this.submitComplete = true;
@@ -105,7 +105,7 @@ export class ContactUs {
   buildMessage(name:string, email:string, messageString:string)  {
 
 
-var message = "BioEdge Application Message\n\n";
+var message = "Elite Maintenance Application Message\n\n";
 
 message += "Name:" + name + "\n";
 message += "Email:" + email + "\n\n";
